@@ -4,6 +4,7 @@ require 'aws/s3'
 require 'rack-flash'
 require 'require_all'
 require 'mailgun'
+require 'json'
 
 require_relative 'models/roof'
 require_relative 'data_mapper_setup'

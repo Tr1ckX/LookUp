@@ -8,5 +8,5 @@ When(/^I happy with my compass position$/) do
 end
 
 Then(/^I should be able to use app$/) do
-  expect(page).to have_content 'Summary'
+  expect(page).to have_content 'Stand nearby and square on to your building and take a photograph!'
 end

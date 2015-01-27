@@ -133,6 +133,7 @@ DEPENDENCIES
   data_mapper
   database_cleaner
   dm-postgres-adapter
+  json
   launchy
   mailgun-ruby (~> 1.0.3)
   rack-flash3

@@ -8,7 +8,7 @@ When(/^I choose the flat roof option$/) do
 end
 
 Then(/^I go to the next page$/) do
-  expect(page).to have_content("Summary")
+  expect(page).to have_content("Stand nearby and square on to your building and take a photograph!")
 end
 
 Given(/^I am on Roof Angle page and my roof is sloped$/) do
@@ -23,5 +23,5 @@ end
 
 Then(/^I angle and proceed$/) do
   click_on "Capture"
-  expect(page).to have_content("Summary")
+  expect(page).to have_content("Stand nearby and square on to your building and take a photograph!")
 end
