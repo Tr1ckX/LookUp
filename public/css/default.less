@@ -42,6 +42,13 @@ body {
     }
   }
   
+  .log {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+  }
+  
   .page {
     position: absolute;
     top: 0;
@@ -57,6 +64,25 @@ body {
         color: @blue;
         line-height: 60px;
       }
+    }
+    
+    .para {
+      position: relative;
+      z-index: 1;
+    }
+    
+    .cloud {
+      width: 172px;
+      height: 114px;
+      background-image: url('/images/img_cloud.png');
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-sizing: border-box;
+      
+      &.layer-1 {}
+      &.layer-2 { transform: scale(0.5); -webkit-transform: scale(0.5);}
+      &.layer-3 { transform: scale(0.15); -webkit-transform: scale(0.15);}
     }
     
     .chunky {
